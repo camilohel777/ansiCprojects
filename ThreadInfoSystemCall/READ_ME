@@ -1,0 +1,4 @@
+-------------------------custom Linux system call to acquire information about threads-----------------------
+rive.c : The system call
+sthread.c : The test file which creates custom threads and then calls the system call to retrieve information
+sthread.h : the header file
