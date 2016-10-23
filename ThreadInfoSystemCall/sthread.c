@@ -1,3 +1,12 @@
+//This project takes user input and creates threads based on what user chooses on amount of threads. It uses synchronization and mutex
+/*
+To compile and run:
+STEP 1: GO TO TERMINAL IN THE DIRECTORY CONTAINING THE FILES
+STEP 2: TYPE IN: sudo gcc -pthread -o sthread sthread.c
+STEP 3: TYPE IN: ./sthread [integer value]
+
+Example: ./sthread 5
+*/
 #include <limits.h>
 #include <errno.h>
 #include <pthread.h>
