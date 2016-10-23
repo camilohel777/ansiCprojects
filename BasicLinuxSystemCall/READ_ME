@@ -1,4 +1,4 @@
-Files:
+--------------This system call was implement on Linux Ubuntu with a custom kernel and compiled on terminal-------------------------
 testmycall.c :
 Calls the system call function to test that it works.
 testmycall.h:
